@@ -1,7 +1,7 @@
 
 [project]
 name = "hello-pkg"
-version = "0.1.1"
+version = "0.1.2"
 description = "A tiny example package that prints a greeting"
 readme = "README.md"
 requires-python = ">=3.8"
