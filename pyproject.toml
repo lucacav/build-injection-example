@@ -1,0 +1,19 @@
+
+[project]
+name = "my-pkg"
+version = "0.1.0"
+description = "A tiny example package that prints a greeting"
+readme = "README.md"
+requires-python = ">=3.8"
+
+authors = [{ name = "Your Name", email = "you@example.com" }]
+
+# If you have runtime deps, put them here:
+dependencies = []
+
+# Create a console command called `hello`
+[project.scripts]
+hello = "hello_pkg.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
