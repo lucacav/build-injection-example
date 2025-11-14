@@ -6,7 +6,7 @@ description = "A tiny example package that prints a greeting"
 readme = "README.md"
 requires-python = ">=3.8"
 
-authors = [{ name = "Your Name", email = "you@example.com" }]
+authors = [{ name = "Foundations of Cybersecurity", email = "you@example.com" }]
 
 # If you have runtime deps, put them here:
 dependencies = []
